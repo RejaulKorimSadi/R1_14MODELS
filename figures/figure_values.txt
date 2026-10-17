@@ -1,0 +1,26 @@
+composition Pythia-160M: followed 38.4 prior 2.1 other 59.5
+composition Mamba-130M: followed 36.9 prior 8.7 other 54.4
+composition Pythia-410M: followed 94.6 prior 2.1 other 3.3
+composition Mamba-370M: followed 50.8 prior 20.1 other 29.1
+composition Pythia-1B: followed 97.3 prior 2.1 other 0.6
+composition Mamba-790M: followed 70.9 prior 21.0 other 8.1
+composition Pythia-1.4B: followed 96.4 prior 3.3 other 0.3
+composition Mamba-1.4B: followed 29.4 prior 67.6 other 3.0
+composition Pythia-2.8B: followed 95.5 prior 4.2 other 0.3
+composition Mamba-2.8B: followed 76.3 prior 21.6 other 2.1
+composition Qwen2.5-0.5B: followed 98.8 prior 1.2 other -0.0
+composition Qwen2.5-1.5B: followed 99.1 prior 0.6 other 0.3
+composition Qwen2.5-3B: followed 99.4 prior 0.6 other -0.0
+composition SmolLM2-1.7B: followed 100.0 prior 0.0 other 0.0
+known-both 410M/370M: n=87 pythia 92.0 mamba 32.2
+known-both 1B/790M: n=78 pythia 93.6 mamba 51.3
+known-both 1.4B/1.4B: n=243 pythia 96.7 mamba 25.9
+known-both 2.8B/2.8B: n=279 pythia 94.6 mamba 75.3
+position Pythia (4 models): 94.1 95.5 98.2 (n=444 per position)
+position Mamba (4 models): 59.5 47.3 63.7 (n=444 per position)
+claims Original: {0: 5, 1: 50, 2: 26, 3: 11, 4: 5}
+claims Correct fact: {0: 53, 1: 30, 2: 10, 3: 3, 4: 1}
+claims Wrong fact: {0: 59, 1: 22, 2: 11, 3: 1, 4: 4}
+per-model ALLaM-2-7B: n=66 97.0 51.5 37.9
+per-model GPT-OSS-120B: n=17 82.4 41.2 35.3
+per-model Qwen3.6-27B: n=14 100.0 21.4 50.0
